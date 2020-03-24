@@ -143,9 +143,9 @@ while running:
     # Player doesn't go out of boundary
     player_x += player_x_change
     if player_x <= 0:
-        player_x = 736
-    elif player_x >= 736:
         player_x = 0
+    elif player_x >= 736:
+        player_x = 736
 
     for i in range(num_of_enemies):
         # Game Over
